@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3c6672e5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="icon" href="icono.png">
+    <title>Contacto | Restaurante</title>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Restaurante</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span><i class="fa-solid fa-phone"></i>9999-9999</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span><i class="fa-solid fa-location-dot"></i>Argentina</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span><i class="fa-solid fa-bars" id="btnmenu"></i></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                <a href="" class="social-icon__link"><span><i class="fa-brands fa-twitter"></i></span></a>
+                <a href="" class="social-icon__link"><span><i class="fa-solid fa-envelope"></i></span></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="img/banner-contact.jpg" alt="" class="banner__img">
+        <div class="banner__content">Déjanos un mensaje</div>
+    </section>
+
+    <main class="main">
+        <section class="group contact">
+            <h2 class="group__title">Contáctanos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Información de Contacto</h3>
+                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod odio aut repellendus facere iure nulla unde corporis natus molestiae, consequatur ad ipsam vitae.</p>
+                    <p class="column__txt"><span class="fa-solid fa-phone"></span> Teléfono 1: 9999-9999</p>
+                    <p class="column__txt"><span class="fa-solid fa-phone"></span> Teléfono 2: 5555-5555</p>
+                    <p class="column__txt"><span class="fa-solid fa-location-dot"></span> Zona 15 - Guatemala</p>
+                    <p class="column__txt"><span class="fa-solid fa-envelope"></span> consultas@turestaurante</p>
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                        <a href="" class="social-icon__link"><span><i class="fa-brands fa-twitter"></i></span></a>
+                        <a href="" class="social-icon__link"><span><i class="fa-solid fa-envelope"></i></span></a>
+                    </div>
+                </div>
+                <form action="" method="POST" class="formulario column column--50">
+                    <label for="" class="formulario__label">Nombre: </label>
+                    <input type="text" class="formulario__input-txt" name="nombre" placeholder="Ingresa tu Nombre" required>
+                    <!-- <span>Nombre: </span> -->
+                    <label for="" class="formulario__label">Correo: </label>
+                    <input type="email" class="formulario__input-txt" name="correo" placeholder="Ingresa tu Correo" required>
+                    <label for="" class="formulario__label">Teléfono: </label>
+                    <input type="number" class="formulario__input-txt" name="telefono" placeholder="Ingresa tu Teléfono" required>
+                    <label for="" class="formulario__label">Mensaje: </label> 
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea" required></textarea>
+                    <input type="submit" class="btn formulario__btn" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué visitarnos?</h2>
+                <p class="column__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda natus repellat in. Labore repudiandae praesentium enim commodi dolorem ut magni libero officiis.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt">Zona 15 - Guatemala, Guatemala</p>
+                <p class="column__txt">Teléfono: 9999-9999</p>
+                <p class="column__txt">consultas@turestaurante</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Síguenos en nuestras redes</h2>
+                <p class="column__txt2"><span><i class="fa-brands fa-facebook-f"></i>Síguenos en Facebook</span></p>
+                <p class="column__txt2"><span><i class="fa-brands fa-twitter"></i>Síguenos en Twitter</span></p>
+                <p class="column__txt2"><span><i class="fa-brands fa-youtube"></i>Visita nuestro canal</span></p>  
+            </div>
+            <p class="copy">&copy; 2022 Your Restaurant | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+
+</body>
+</html>
